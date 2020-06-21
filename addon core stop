@@ -1,0 +1,6 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+for ♥i from 1 to 5
+  stop if ⊂♥i==3⊃
+  dialog ♥i
+end
