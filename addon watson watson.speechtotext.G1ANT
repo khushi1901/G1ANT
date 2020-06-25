@@ -1,0 +1,7 @@
+addon watson version 4.103.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥apiKey = QA9O1P5W2by9dG95sV7Or76qzm_zux4QuuqRxlUz_8j0
+♥serverUri = https://gateway-lon.watsonplatform.net/speech-to-text/api
+watson.speechtotext C:\Users\LENOVO\Music\hello.mp3 apikey ♥apiKey serveruri ♥serverUri
+dialog ♥result
