@@ -1,0 +1,18 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+selenium.open chrome url https://www.google.com/ timeout 40000
+delay 10
+selenium.click search //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input by xpath
+keyboard ‴covid 19 cases in india‴
+keyboard ⋘ENTER⋙
+delay 10
+selenium.click search //*[@id="kp-wp-tab-HealthStats"]/div[3]/div/div[5]/div/div[1]/a/h3 by xpath
+delay 20
+selenium.gettext search //*[@id="site-dashboard"]/div/div/div/div/ul/li[1]/strong by xpath result ♥active
+dialog ‴Active cases: ‴♥active
+selenium.gettext search //*[@id="site-dashboard"]/div/div/div/div/ul/li[2]/strong by xpath result ♥cured   
+dialog ‴Cured/Discharged: ‴♥cured
+selenium.gettext search //*[@id="site-dashboard"]/div/div/div/div/ul/li[3]/strong by xpath result ♥death
+dialog ‴Death: ‴♥death
+

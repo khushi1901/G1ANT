@@ -1,0 +1,15 @@
+addon selenium version 4.104.0.0
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+
+word.open C:\Users\LENOVO\Desktop\test.docx
+delay 10
+keyboard ⋘CTRL+A⋙⋘CTRL+C⋙
+selenium.open chrome url https://plagiarismdetector.net/ timeout 50000
+delay 20
+selenium.click search //*[@id="textarea"] by xpath timeout 50000
+delay 30
+keyboard ⋘CTRL+V⋙
+delay 10
+selenium.click search check by id

@@ -1,0 +1,8 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+selenium.open chrome url https://stackoverflow.com/
+selenium.click search s-input by class
+keyboard ‴g1ant‴⋘ENTER⋙
+delay 2
+selenium.click search //*[@id="mainbar"]/div[3]/div[2]/div/a[2] by xpath

@@ -1,0 +1,29 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+♥login=♥credential⟦github:login⟧
+♥password=♥credential⟦github:password⟧
+selenium.open chrome url https://github.com/ timeout 30000
+delay 10
+selenium.click search /html/body/div[1]/header/div/div[2]/div[2]/a[1] by xpath
+delay 5
+selenium.click search login_field by id timeout 300000
+keyboard ♥login
+selenium.click search password by id
+keyboard ♥password⋘ENTER⋙
+delay 5
+selenium.click search //*[@id="repos-container"]/ul/li/div/a/span[1] by xpath timeout 30000
+selenium.click search //*[@id="js-repo-pjax-container"]/div[2]/div/div[2]/div[1]/div[2]/details[2]/summary/span[1] by xpath timeout 30000
+selenium.click search //*[@id="js-repo-pjax-container"]/div[2]/div/div[2]/div[1]/div[2]/details[2]/ul/li[4]/a by xpath timeout 30000
+selenium.click search //*[@id="upload-manifest-files-input"] by xpath timeout 30000
+delay 10
+mouse.click position ⟦point⟧126⫽178
+delay 5
+mouse.click position ⟦point⟧250⫽390
+keyboard ⋘ENTER⋙
+delay 5
+mouse.click position ⟦point⟧743⫽366
+keyboard ⋘ENTER⋙
+delay 10
+selenium.click search //*[@id="js-repo-pjax-container"]/div[2]/div/form/button by xpath
+
