@@ -1,0 +1,15 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+program "C:\Users\LENOVO\AppData\Local\Programs\Python\Python38-32\Lib\idlelib\idle.pyw"
+delay 10
+keyboard ⋘CTRL+N⋙
+delay 10
+keyboard ‴start = 11⋘ENTER⋙end = 25⋘ENTER⋙for val in range(start, end + 1): ⋘ENTER⋙if val > 1: ⋘ENTER⋙for n in range(2, val//2 + 2): ⋘ENTER⋙if (val % n) == 0: ⋘ENTER⋙break⋘ENTER⋙else: ⋘ENTER⋙if n == val//2 + 1: ⋘ENTER⋙print(val)‴
+delay 5
+keyboard ⋘F5⋙
+delay 2
+keyboard ⋘ENTER⋙
+delay 5
+keyboard prime
+keyboard ⋘ENTER⋙
+

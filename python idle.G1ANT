@@ -1,0 +1,13 @@
+addon ui version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+program "C:\Users\LENOVO\AppData\Local\Programs\Python\Python38-32\Lib\idlelib\idle.pyw"
+delay 10
+keyboard ⋘CTRL+N⋙
+delay 10
+keyboard ‴print("hello world")‴
+keyboard ⋘F5⋙
+keyboard ⋘ENTER⋙
+delay 5
+keyboard hello
+keyboard ⋘ENTER⋙
